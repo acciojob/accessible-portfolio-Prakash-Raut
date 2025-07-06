@@ -1,2 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+h1[role="heading"] {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+nav[role="navigation"] {
+  background-color: #007acc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+nav ul[role="list"] {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav li[role="listitem"] a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li[role="listitem"] a:hover {
+  text-decoration: underline;
+}
+
+img[role="img"] {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+ul[role="list"]:last-of-type {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul[role="list"] li[role="listitem"] {
+  margin-bottom: 10px;
+}
